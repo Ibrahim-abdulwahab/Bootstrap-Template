@@ -221,4 +221,16 @@ html {
     height: 10px;
     background-color: rgb(44, 62, 80);
     flex-grow: 1.5;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main-footer{
+    flex-grow: 2;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.copyright{
+    background-color: black;
+    flex-grow: 0.7;
 }
