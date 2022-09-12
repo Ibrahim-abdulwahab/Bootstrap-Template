@@ -60,6 +60,13 @@ html {
     height: 10px;
     background-color: #0dcaf0;
     flex-grow: 3;
+    display: flex;
+    justify-content: center;
+}
+.sub-start{
+    width: 50%;
+    height: 100%;
+    background-color: red;
 }
 .portfolio{
     width:100%;
