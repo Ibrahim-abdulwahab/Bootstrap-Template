@@ -17,31 +17,39 @@ html {
 }
 .header{
     width:100%;
-    height: 10px;
+    height: 80px;
     background-color: red;
+    flex-grow: 0.3;
+    position: fixed;
 }
 .start{
     width:100%;
     height: 10px;
     background-color: blue;
+    flex-grow: 3;
 }
 .portfolio{
     width:100%;
     height: 10px;
     background-color: green;
+    flex-grow: 3.5;
+
 }
 .about{
     width:100%;
     height: 10px;
     background-color: yellow;
+    flex-grow: 2.7;
 }
 .contact{
     width:100%;
     height: 10px;
     background-color: pink;
+    flex-grow: 3.5;
 }
 .footer{
     width:100%;
     height: 10px;
     background-color: grey;
+    flex-grow: 1.5;
 }
