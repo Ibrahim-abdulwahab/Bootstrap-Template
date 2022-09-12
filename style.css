@@ -39,7 +39,21 @@ html {
 .nav-bar{
     height: 100%;
     width: 25%;
-    background-color: red;
+    display: flex;
+    margin-right: 90px;
+}
+.content{
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.content:hover{
+    color: #0dcaf0;
+    cursor: pointer;
 }
 .start{
     width:100%;
