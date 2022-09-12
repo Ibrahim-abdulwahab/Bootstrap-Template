@@ -71,7 +71,18 @@ window.addEventListener('load', function(){
                     error3.className = ""
                         }
                 
-        } 
+        }
+        const msg=document.getElementById("message").value
+        if (msg.length<100){
+            const error4=document.getElementById("error msg4")
+            error4.innerHTML="Your message should be at least 100 characters"
+            error4.className = "error"
+        }
+        else{
+            const error4=document.getElementById("error msg4")
+            error4.innerHTML=""
+            error4.className = ""
+        }
         }
 
     }
