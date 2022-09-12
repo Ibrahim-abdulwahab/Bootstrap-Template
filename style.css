@@ -282,3 +282,7 @@ html {
 .icon a{
     color: white;
 }
+.error{
+    color: red;
+    align-self: flex-start;
+}
