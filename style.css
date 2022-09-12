@@ -229,8 +229,56 @@ html {
     flex-grow: 2;
     padding-left: 10%;
     padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .copyright{
     background-color: black;
-    flex-grow: 0.7;
+    flex-grow: 1.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.3em;
+}
+.footer-topic{
+    height: 100%;
+    width:33%;
+    flex-grow: 1;
+    padding-top: 5%;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+.footer-topic p{
+    margin-top: 5%;
+    font-weight:lighter;
+    font-size: 0.7em;
+    flex-wrap: wrap;
+    padding-left:15%;
+    padding-right: 15%;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.icon{
+    width: 15%;
+    height: 27%;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    margin-right: 5%;
+}
+.icon:hover{
+    background-color: white;
+}
+.icon a:hover{
+    color:black
+}
+.icon a{
+    color: white;
 }
