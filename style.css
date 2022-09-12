@@ -21,11 +21,13 @@ html {
     background-color: rgb(44, 62, 80);
     flex-grow: 0.3;
     position: fixed;
+    display: flex;
+    justify-content: space-around;
 }
 .nav-bar{
     height: 100%;
     width: 25%;
-
+    background-color: red;
 }
 .start{
     width:100%;
