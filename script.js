@@ -33,7 +33,6 @@ window.addEventListener('load', function(){
             const error2=document.getElementById("error msg2")
                 error2.innerHTML="Your email needs atleast 5 character after the @"
                 error2.className="error"
-                console.log("Hi")
         }
         else{
             const error1=document.getElementById("error msg2")
@@ -53,6 +52,11 @@ window.addEventListener('load', function(){
                     error3.innerHTML="Your number should have 7 digits"
                     error3.className = "error"
                 }
+                else{
+                    const error3=document.getElementById("error msg3")
+                    error3.innerHTML=""
+                    error3.className = ""
+                }
         }
         else if (phonenumber[4]==7){
             truenumber=phonenumber.substring(4);
@@ -61,10 +65,16 @@ window.addEventListener('load', function(){
                     error3.innerHTML="Your number should have 8 digits"
                     error3.className = "error"
                 }
-        }   
+                else{
+                    const error3=document.getElementById("error msg3")
+                    error3.innerHTML=""
+                    error3.className = ""
+                        }
+                
+        } 
         }
 
     }
     
 
-})
+)
