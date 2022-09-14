@@ -1,5 +1,10 @@
 <?php
+
+header('Access-Control-Allow-origin: *');
+header('Content-type:application/json');
 include("connection.php");
+
+
 
 $fullname = $_POST["fullname"];
 $email = $_POST["email"];
@@ -14,6 +19,7 @@ $query->execute();
 
 $response = [];
 $response["success"] = true;
+//$response["success"] = true;
 
 echo json_encode($response);
 

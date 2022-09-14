@@ -1,9 +1,11 @@
 <?php
-/*
-Include CORS - how ? Allow Headers! 
-*/
+
+header('Access-Control-Allow-Origin: *');
+
 
 include("connection.php");
+
+//header('Content-type:application/json');
 
 $query = $mysqli->prepare("SELECT message FROM contact");
 $query->execute();
